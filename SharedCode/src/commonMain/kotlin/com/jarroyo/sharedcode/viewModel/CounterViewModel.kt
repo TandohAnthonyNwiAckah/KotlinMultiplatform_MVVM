@@ -13,7 +13,7 @@ import dev.icerock.moko.mvvm.livedata.MutableLiveData
 import dev.icerock.moko.mvvm.viewmodel.ViewModel
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.Job
-import org.kodein.di.erased.instance
+import org.kodein.di.instance
 import kotlin.coroutines.CoroutineContext
 
 class CounterViewModel(
